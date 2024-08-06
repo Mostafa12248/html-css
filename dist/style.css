@@ -222,6 +222,10 @@ ol {
   width: 100%;
 }
 .container__download--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
   text-align: center;
   width: 100%;
 }
@@ -261,6 +265,7 @@ ol {
 @media (max-width: 600px) {
   .container__download--content--browser {
     padding: 10px 30px;
+    height: 300px;
   }
 }
 .container__download--content--browser:last-child a {
@@ -289,7 +294,7 @@ ol {
 }
 @media (max-width: 600px) {
   .container__download--content--browser .info::before {
-    top: 120px;
+    top: 170px;
   }
 }
 .container__download--content--browser .info img {
